@@ -1,120 +1,78 @@
 import React from 'react';
 
 export default [{
-  name: 'typy',
+  name: 'hunter_app',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Typy
+        Hunter Topology Recognizer
       </div>
       <div className='portfolio-item__desc'>
-        JavaScript type checking library with a sweeter syntax
+        Aplicación móvil para el descubrimiento de topologias espontaneas caoticas en Redes IEEE 802.11 bajo ambientes cerrados y abiertos.
       </div>
       <div className='portfolio-item__icon'>
-        <i className="fab fa-js"></i>
-        <i className="fab fa-npm"></i>
-      </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/typy">NPM</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/typy">More</a>
+        <i className="fab fa-android"></i>
       </div>
     </div>
   )
 }, {
-  name: 'dev-landing-page',
+  name: 'hunter_wifi_landing',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Dev Landing Page
+        Hunter Wi-Fi Location System
       </div>
       <div className='portfolio-item__desc'>
-        Minimal landing page for developers
-      </div>
-      <div className='portfolio-item__icon'>
-        <i className="fab fa-html5"></i>
-        <i className="fab fa-css3"></i>
-      </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://dev.to/flexdinesh/create-your-developer-landing-page-with-github-pages---42jk">Blog</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/dev-landing-page">More</a>
-      </div>
-    </div>
-  )
-}, {
-  name: 'react-redux-boilerplate',
-  render: (
-    <div className='portfolio-item'>
-      <div className='portfolio-item__title'>
-        React-Redux Boilerplate
-      </div>
-      <div className='portfolio-item__desc'>
-        Boilerplate code setup with community best practices
+        Dashboard para visualizar los datos recolectados con Hunter Topology Recognizer.
       </div>
       <div className='portfolio-item__icon'>
         <i className="fab fa-react"></i>
         <i className="fab fa-js"></i>
       </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://dev.to/flexdinesh/react-redux-boilerplate-with-best-practices--2pp5">Blog</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/react-redux-boilerplate">More</a>
+    </div>
+  )
+}, {
+  name: 'cartoon_network_anything',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        Cartoon Network Anything
+      </div>
+      <div className='portfolio-item__desc'>
+        Feature de gestos para transición de escenarios en la aplicación.
+      </div>
+      <div className='portfolio-item__icon'>
+        <i className="fab fa-android"></i>
       </div>
     </div>
   )
 }, {
-  name: 'npm-module-boilerplate',
+  name: 'htv_radio',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        NPM Module Boilerplate
+        HTV Radio
       </div>
       <div className='portfolio-item__desc'>
-         Boilerplate plate code to create and publish an NPM package
+        Aplicación móvil android para acceso de contenido musical de HTV.
       </div>
       <div className='portfolio-item__icon'>
-        <i className="fab fa-js"></i>
-        <i className="fab fa-npm"></i>
-      </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://dev.to/flexdinesh/publish-your-own-npm-package---5b71">Blog</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/npm-module-boilerplate">More</a>
+        <i className="fab fa-android"></i>
       </div>
     </div>
   )
 }, {
-  name: 'axios-retry-interceptor',
+  name: 'todoc',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Axios Retry Interceptor
+        TODoc
       </div>
       <div className='portfolio-item__desc'>
-        Configurable Axios Interceptor to retry failed http calls.
+        Aplicación hibrida desarrollada con el framework ionic destinada a médicos.
       </div>
       <div className='portfolio-item__icon'>
         <i className="fab fa-js"></i>
-      </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/axios-retry-interceptor">More</a>
-      </div>
-    </div>
-  )
-}, {
-  name: 'browser-or-node',
-  render: (
-    <div className='portfolio-item'>
-      <div className='portfolio-item__title'>
-        Browser or Node
-      </div>
-      <div className='portfolio-item__desc'>
-        Javascript library to check the runtime JS env
-      </div>
-      <div className='portfolio-item__icon'>
-        <i className="fab fa-js"></i>
-        <i className="fab fa-npm"></i>
-      </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/browser-or-node">NPM</a>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/flexdinesh/browser-or-node">More</a>
       </div>
     </div>
   )

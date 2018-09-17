@@ -21,34 +21,27 @@ const AboutPage = (props, context) => {
         `}
       </style>
       <div className="content-grid">
-        <h1 style={{ color: colorPrimary }}>About</h1>
+        <h1 style={{ color: colorPrimary }}>Sobre mi 😃</h1>
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              I like <span className="highlight">JavaScript</span> and
-              everything web.
+              Millennial, amante del código y de la tecnología, <span className="highlight">Ingeniero de Sistemas</span>, mención Sistemas Computacionales, titulado de la Universidad de los Andes (ULA), <span className="highlight">Venezolano</span> 🇻🇪 viviendo en Chile 🇨🇱, con mas de 3 años de experiencia en desarrollo de sistemas, aplicaciones web, diseño de arquitecturas de software y lider de pequeños grupos multidisiplinarios de desarrollo.
             </p>
             <p>
-              When my dev senses kick-in I build presumably{' '}
-              <span className="highlight"> awesome stuff</span>. I stay close to
-              the community and try to keep tabs with the pace at which the web
-              is evolving. I also like to{' '}
-              <span className="highlight">blog</span> what I learn.
+              Me considero como un <span className="highlight">FullStack Dev</span> que puede tomar decisiones para abordar soluciones a problemas, autodidacta con habilidades en desarrollo, y apego por <span className="highlight">RESTful APIs, Front-end, Big Data, Data Science, Data Analitycs</span>.
             </p>
             <p>
-              I built this site <span className="highlight">from scratch</span>.
-              By scratch, I mean <i>absolutely from scratch</i>{' '}
-              <span className="highlight">
-                without any UI library/framework
-              </span>{' '}
-              (except React though) and had so much fun along the way.
+              Me siento cómodo eligiendo la arquitectura de algún sistema o desarrollo, me apasionan los retos y las nuevas tecnologías.
+              Tengo gusto por la UI/UX, las tecnologías inalámbricas, y el desarrollo de aplicaciones móviles, constantemente estoy investigando al respecto.
             </p>
             <p>
-              React-Redux, Node.js, Ruby on Rails, Java, Spring Boot, Docker and
-              AWS are the main tricks up my sleeve. I am also obsessed with making the web look pretty with SASS/CSS.
+              Abierto a usar cualquier tipo de tecnología o reto donde pueda aportar mis conocimientos y destrezas.
             </p>
-            <p className="text-emoji" style={{ color: colorPrimary }}>
-              \ (•◡•) /
+            <p>
+              Algunas habilidades técnicas: {' '} <span className="highlight">ReactJS, NodeJS, Android, Docker, AWS, Python, Java</span>...
+            </p>
+            <p className="text-emoji" >
+              🤘
             </p>
           </div>
         </div>
